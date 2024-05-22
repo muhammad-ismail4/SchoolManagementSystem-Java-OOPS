@@ -32,10 +32,17 @@ Methods: addStudent(Student student), addTeacher(Teacher teacher), addCourse(Cou
 Expalanation:
 
 Person: This is the base class for Student and Teacher, encapsulating common attributes and methods.
+
 Student: Extends Person, adding attributes and methods specific to students, such as enrolling in courses and marking attendance.
+
 Teacher: Extends Person, adding attributes and methods specific to teachers, such as assigning courses.
+
 Course: Represents a course with details like course ID, name, teacher, and enrolled students.
+
 Schedule: Represents the schedule of a course, including the day, start time, and end time.
+
 Attendance: Represents the attendance record of a student in a course on a particular date.
+
 School: Manages the list of students, teachers, and courses, providing methods to add and retrieve these entities.
+
 This structure ensures that the code follows OOP principles, promoting reusability, modularity, and maintainability.
